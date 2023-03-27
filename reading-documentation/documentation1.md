@@ -45,12 +45,17 @@
 7. Type of Primitive | Look up the MDN documentation for the typeof operator. What is its return value? Determine what the following statements will return:
 
     typeof 23.5; // "number"
-    typeof 'Call me Ishmael.'; "string"
-    typeof false; "boolean"
-    typeof 0; "number"
-    typeof null; "object"
-    typeof undefined; "undefined"
 
+    typeof 'Call me Ishmael.'; "string"
+
+    typeof false; "boolean"
+
+    typeof 0; "number"
+
+    typeof null; "object"
+
+    typeof undefined; "undefined"
+    
      The typeof operator returns a string indicating the type of the operand's value.
 
     Discussion: Take care to read the documentation carefully: typeof returns what you would expect for most primitive types, but note that typeof null returns the string 'object'. This is a historic bug and it's too late to change it without breaking existing code. There's no need to understand the details behind it, it's only important to be aware of the fact that JavaScript will claim null to be an 'object'.
@@ -62,7 +67,7 @@
     let words = tweet.split(' ');
     let isValid = tweet.length < 140;
 
-What will the following statements return?
+    What will the following statements return?
 
     typeof tweet; // "string"
     typeof words;  // "object"
@@ -76,13 +81,13 @@ What will the following statements return?
 
     let tweet = 'Starting to get the hang of it... #javascript #launchschool';
 
-Given the following tweet:
+    Given the following tweet:
 
     tweet.split(' ');
     tweet.split(' ').reverse();
     tweet.split(' ').reverse().join(' ');
 
-Reference the documentation to learn about the return value of each method.
+    Reference the documentation to learn about the return value of each method.
 
     tweet.split(' '); // The split() method takes a pattern and divides a String into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array. This statement will return:
 
