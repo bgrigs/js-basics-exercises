@@ -4,7 +4,7 @@
 
     However, ECMA International is the official documentation: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
 
-2. Lowercase | Find out whether JavaScript has a method to lowercase a string, for example converting 'Aloha, World!' into 'aloha, world!.
+2. Lowercase | Find out whether JavaScript has a method to lowercase a string, for example converting 'Aloha, World!' into 'aloha, world!'.
 
     The toLowerCase() method returns the calling string value converted to lower case.
 
